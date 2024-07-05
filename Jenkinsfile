@@ -1,7 +1,9 @@
 node {
 
 
-   def IMAGE="workout/app:4.5"
+   def PROJECT="thomas-formation"
+   def IMAGE="${PROJECT}/app:4.5"
+
 
     stage('Clone') {
           checkout scm
