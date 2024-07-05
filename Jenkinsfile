@@ -1,8 +1,7 @@
 node {
 
 
-   def PROJECT="thomas-formation"
-   def IMAGE="${PROJECT}/app:4.5"
+   def IMAGE="${PROJECT}/app:${VERSION}"
 
 
     stage('Clone') {
